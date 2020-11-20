@@ -1,0 +1,43 @@
+h1,h2,h3,h4,h5,h6,body{
+    color: #ffffff;
+}
+.navbar{
+    background: linear-gradient(180deg, #1B0D53 5.19%, #2B0831 100%);
+    align-content: center;
+    text-align: center;
+}
+.main1{
+    text-align: center;
+    align-content: center;
+    background: linear-gradient(180deg, #1B0D53 5.19%, #2B0831 100%);
+}
+.row{
+    background: linear-gradient(180deg, #1B0D53 5.19%, #2B0831 100%);
+}
+.container-fluid{
+    background: linear-gradient(180deg, #1B0D53 5.19%, #2B0831 100%);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .main1{
+        text-align: center;
+        align-content: center;
+        background: linear-gradient(180deg, #1B0D53 5.19%, #2B0831 100%);
+        font-size: small;
+    }
+
+    .navbar-expand{
+        font-size: small;
+        align-content: center;
+    text-align: center;
+    }
+
+    .navbar,.fixed-bottom,.navbar-expand ,.navbar-dark ,.bg-dark{
+        align-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+
+}
