@@ -4,10 +4,17 @@ h1,h2,h3,h4,h5,h6,body{
 body{
     background-color: #100320;
 }
+.logo{
+    width: 120px;
+}
 .navbar{
     background-color: #100320;
     align-content: center;
     text-align: center;
+}
+.headnavbtn{
+    margin: 5px;
+    font-size: 15px;
 }
 .main1{
     text-align: center;
@@ -74,8 +81,20 @@ body{
     font-size: 12px;
 }
 
-@media only screen and (max-width: 600px) {
+.navbarfooter{
+    padding: 13px;
+}
 
+@media only screen and (max-width: 600px) {
+    .headnav{
+        display: none;
+    }
+    .navbar-brand{
+        width: 60px;
+    }
+    .logo{
+        width: 60px;
+    }
     .main1{
         text-align: center;
         align-content: center; align-items: center;
@@ -130,4 +149,11 @@ body{
         font-size: 12px;
     }
 
+    .navbarfooter{
+        padding: 5px;
+    }
+    .headnavbtn{
+        margin: 3px;
+        font-size: 12px;
+    }
 }
