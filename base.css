@@ -45,6 +45,28 @@ body{
     background-color: #100320;
 }
 
+.midcontent{
+    text-align: center;
+    align-content: center;
+}
+.rewardhead{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.rewardmain{
+    font-size: 16px;
+}
+.rewarddes{
+    font-size: 25px;
+}
+.footerbanner{
+    width: 100%;
+}
+.navfooters{
+    width: 30px;
+}
+
+
 @media only screen and (max-width: 600px) {
 
     .main1{
@@ -73,6 +95,28 @@ body{
 
     .rowz{
         z-index: 99;
+    }
+
+    .midcontent{
+        text-align: center;
+        align-content: center;
+    }
+
+    .rewardhead{
+        font-size: 25px;
+    }
+    .rewardmain{
+        font-size: 16px;
+    }
+    .rewarddes{
+        font-size: 25px;
+    }
+    .footerbanner{
+        width: 100%;
+    }
+    .navfooters-mid{
+        width: 60px;
+        margin-top: -30px;
     }
 
 }
