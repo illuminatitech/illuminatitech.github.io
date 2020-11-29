@@ -65,7 +65,14 @@ body{
 .navfooters{
     width: 30px;
 }
+.navfooters-mid{
+    width: 60px;
+    margin-top: -30px;
+}
 
+.footerlink{
+    font-size: 12px;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -117,6 +124,10 @@ body{
     .navfooters-mid{
         width: 60px;
         margin-top: -30px;
+        font-size: 12px;
+    }
+    .footerlink{
+        font-size: 12px;
     }
 
 }
