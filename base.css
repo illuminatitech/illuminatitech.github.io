@@ -4,6 +4,11 @@ h1,h2,h3,h4,h5,h6,body{
 body{
     background-color: #100320;
 }
+.menuitem{
+    background-color: #181D31;
+    color: #ffffff;
+    font-weight: bold;
+}
 .logo{
     width: 120px;
 }
@@ -24,12 +29,15 @@ body{
 
 .contentsub{
     margin-top: 30px;
+    padding: 30px;
 }
 .imgcontentsub{
     margin-top: -20px;
 }
 
-
+.navmobile{
+    display: none;
+}
 .nav-tabs > li {
     float:none;
     display:inline-block;
@@ -40,6 +48,7 @@ body{
 .nav-tabs , .nav-item{
     text-align:center;
     background-color: #100320;
+    margin: 0px;
 }
 
 .nav-tabs , .nav-item :hover {
@@ -89,6 +98,12 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
+    .navgamepc{
+        display: none;
+    }
+    .navmobile{
+        display: flex;
+    }
     .headnav{
         display: none;
     }
@@ -149,7 +164,7 @@ body{
         font-size: 12px;
     }
     .footerlink{
-        font-size: 12px;
+        font-size: 8px;
     }
 
     .navbarfooter{
