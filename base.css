@@ -121,6 +121,38 @@ body {
     width: 600px;
 }
 
+.simulationcard {
+    background-color: transparent;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: grid;
+    align-content: center;
+}
+
+.simulationcardimg {
+    width: 100%;
+    background-color: transparent;
+}
+
+.card {
+    background-color: #150C20;
+    width: 100%;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: brown;
+}
+
+.modal-content {
+    background-color: #150C20;
+}
+
+.promotioncardimg {}
+
 @media only screen and (max-width: 600px) {
     .navgamepc {
         display: none;
