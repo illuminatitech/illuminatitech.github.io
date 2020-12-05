@@ -1,180 +1,202 @@
-h1,h2,h3,h4,h5,h6,body{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
     color: #ffffff;
 }
-body{
+
+body {
     background-color: #100320;
 }
-.menuitem{
+
+.menuitem {
     background-color: #181D31;
     color: #ffffff;
     font-weight: bold;
 }
-.logo{
+
+.logo {
     width: 120px;
 }
-.navbar{
+
+.navbar {
     background-color: #100320;
     align-content: center;
     text-align: center;
 }
-.headnavbtn{
+
+.headnavbtn {
     margin: 5px;
     font-size: 15px;
 }
-.main1{
+
+.main1 {
     text-align: center;
     align-content: center;
     background-color: #100320;
 }
 
-.contentsub{
+.contentsub {
     margin-top: 30px;
     padding: 30px;
 }
-.imgcontentsub{
+
+.imgcontentsub {
     margin-top: -20px;
 }
 
-.navmobile{
+.navmobile {
     display: none;
 }
-.nav-tabs > li {
-    float:none;
-    display:inline-block;
-    zoom:1;
+
+.nav-tabs>li {
+    float: none;
+    display: inline-block;
+    zoom: 1;
     background-color: #100320;
 }
 
-.nav-tabs , .nav-item{
-    text-align:center;
+.nav-tabs,
+.nav-item {
+    text-align: center;
     background-color: #100320;
     margin: 0px;
 }
 
-.nav-tabs , .nav-item :hover {
-    text-align:center;
+.nav-tabs,
+.nav-item :hover {
+    text-align: center;
     background-color: #100320;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active  {
-    text-align:center;
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    text-align: center;
     background-color: #100320;
 }
 
-.midcontent{
+.midcontent {
     text-align: center;
     align-content: center;
 }
-.rewardhead{
+
+.rewardhead {
     margin-top: 50px;
     font-size: 20px;
 }
-.rewardmain{
+
+.rewardmain {
     font-size: 16px;
 }
-.rewarddes{
+
+.rewarddes {
     font-size: 25px;
 }
-.footerbanner{
+
+.footerbanner {
     width: 100%;
 }
-.navfooters{
+
+.navfooters {
     width: 30px;
 }
-.navfooters-mid{
+
+.navfooters-mid {
     width: 60px;
     margin-top: -30px;
 }
 
-.footerlink{
+.footerlink {
     font-size: 12px;
 }
 
-.navbarfooter{
+.navbarfooter {
     padding: 13px;
 }
-.howto{
+
+.howto {
     width: 600px;
 }
 
 @media only screen and (max-width: 600px) {
-    .navgamepc{
+    .navgamepc {
         display: none;
     }
-    .navmobile{
+    .navmobile {
         display: flex;
     }
-    .headnav{
+    .headnav {
         display: none;
     }
-    .navbar-brand{
+    .navbar-brand {
         width: 60px;
     }
-    .logo{
+    .logo {
         width: 60px;
     }
-    .main1{
+    .main1 {
         text-align: center;
-        align-content: center; align-items: center;
+        align-content: center;
+        align-items: center;
         background-color: #100320;
         font-size: small;
     }
-    .navbar-toggler{
+    .navbar-toggler {
         display: none;
         display: block;
     }
-
-    .navbar-expand{
+    .navbar-expand {
         font-size: small;
         align-content: center;
-    text-align: center;
+        text-align: center;
     }
-
-    .navbar,.fixed-bottom,.navbar-expand ,.navbar-dark ,.bg-dark{
+    .navbar,
+    .fixed-bottom,
+    .navbar-expand,
+    .navbar-dark,
+    .bg-dark {
         align-content: center;
         text-align: center;
         align-items: center;
-
     }
-
-    .rowz{
+    .rowz {
         z-index: 99;
     }
-
-    .midcontent{
+    .midcontent {
         text-align: center;
         align-content: center;
     }
-
-    .rewardhead{
+    .rewardhead {
         font-size: 25px;
     }
-    .rewardmain{
+    .rewardmain {
         font-size: 16px;
     }
-    .rewarddes{
+    .rewarddes {
         font-size: 25px;
     }
-    .footerbanner{
+    .footerbanner {
         width: 100%;
     }
-    .navfooters-mid{
+    .navfooters-mid {
         width: 60px;
         margin-top: -30px;
         font-size: 12px;
     }
-    .footerlink{
+    .footerlink {
         font-size: 8px;
     }
-
-    .navbarfooter{
+    .navbarfooter {
         padding: 5px;
     }
-    .headnavbtn{
+    .headnavbtn {
         margin: 3px;
         font-size: 12px;
     }
-    .howto{
+    .howto {
         width: 350px;
     }
 }
